@@ -1,0 +1,54 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height:100%;
+    min-height:100%;
+}
+@font-face {
+    font-family: xp;
+    src: url(windows-xp-tahoma.ttf);
+}
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: xp, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.os {
+    background-image: url("xp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 1404px;
+}
+
+.window {
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color:  #c0c0c0;
+    padding: 2px;
+    border-top: #f7f7f7 solid 2px;
+    border-left: #f7f7f7 solid 2px;
+    border-right: #959595 solid 2px;
+    border-bottom: #959595 solid 2px;
+    width: 500px;
+    height: 400px;
+}
+
+.window__heading {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #060387, #2379b2);
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 5px;
+}
+
+.window__heading__text {
+    color: #f6f8f6;
+}
