@@ -8,6 +8,7 @@ html, body {
     font-family: xp;
     src: url(windows-xp-tahoma.ttf);
 }
+
 body {
     display: flex;
     flex-direction: row;
@@ -42,6 +43,7 @@ body {
 .window__heading {
     display: flex;
     flex-direction: row;
+
     background-image: linear-gradient(to right, #060387, #2379b2);
     padding-top: 4px;
     padding-left: 4px;
@@ -49,6 +51,34 @@ body {
     padding-bottom: 5px;
 }
 
+.ml-auto {
+    margin-left: auto;
+}
+
 .window__heading__text {
     color: #f6f8f6;
+}
+
+.window__heading__button {
+    border-top: #f7f7f7 solid 2px;
+    border-left: #f7f7f7 solid 2px;
+    border-right: #959595 solid 2px;
+    border-bottom: #959595 solid 2px;
+    width: 20px;
+    height: 20px;
+    background-color:  #c0c0c0;
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.window__heading__button__cross {
+    height: 60%
+}
+.window__heading__button__question {
+    height: 100%
 }
